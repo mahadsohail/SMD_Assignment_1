@@ -31,12 +31,15 @@ public class ReceiverDetailsActivity extends AppCompatActivity {
             return insets;
         });
 
+
+        //retrieving ids
         rEmail = findViewById(R.id.rEmail);
         rfName = findViewById(R.id.rfName);
         rCI = findViewById(R.id.rCI);
         rAddress = findViewById(R.id.rAddress);
         rCountry = findViewById(R.id.rCountry);
 
+        //dialer input for contact
         rCI.setInputType(InputType.TYPE_CLASS_PHONE);
 
         Button btnRNext = findViewById(R.id.btnRNext);
@@ -67,6 +70,7 @@ public class ReceiverDetailsActivity extends AppCompatActivity {
 
     }
 
+    //necessary checks
     private boolean inputChecks(){
         String email = Objects.requireNonNull(rEmail.getText()).toString().trim();
         String fullname = Objects.requireNonNull(rfName.getText()).toString().trim();

@@ -33,7 +33,7 @@ public class SenderDetailsActivity extends AppCompatActivity {
         });
 
 
-
+        //retrieving ids
         sEmail = findViewById(R.id.sEmail);
         sFullName = findViewById(R.id.sFullName);
         sCI = findViewById(R.id.sCI);
@@ -59,6 +59,7 @@ public class SenderDetailsActivity extends AppCompatActivity {
 
         }
 
+        //necessary checks
         private boolean inputChecks(){
             String email = Objects.requireNonNull(sEmail.getText()).toString().trim();
             String fullname = Objects.requireNonNull(sFullName.getText()).toString().trim();

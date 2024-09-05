@@ -47,7 +47,7 @@ public class ReviewInformationActivity extends AppCompatActivity {
         ((TextView) findViewById(R.id.rAddress)).setText(receiverAddress);
         ((TextView) findViewById(R.id.rCI)).setText(receiverContact);
 
-
+        //FAB to get back to sender activity
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(v -> {
             Intent intent = new Intent(ReviewInformationActivity.this, SenderDetailsActivity.class);
