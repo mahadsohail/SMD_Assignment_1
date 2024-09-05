@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Assignment_1</string>
+    <string name="todo">TODO</string>
+    <string name="review_information">Review Information</string>
+    <string name="country">Country</string>
+    <string name="address">Address</string>
+    <string name="contact_info">Contact Info</string>
+    <string name="receiver">RECEIVER</string>
+    <string name="details">DETAILS</string>
+    <string name="email">Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="contact_information">Contact Information</string>
+    <string name="rCountry">Country</string>
+    <string name="rAddress">Address</string>
+    <string name="next">NEXT</string>
+    <string name="sender">SENDER</string>
+    <string name="sDetails">DETAILS</string>
+    <string name="sEmail">Email</string>
+    <string name="sFull_name">Full Name</string>
+    <string name="sContact_information">Contact Information</string>
+    <string name="sCountry">Country</string>
+    <string name="sAddress">Address</string>
+    <string name="sNext">NEXT</string>
+</resources>

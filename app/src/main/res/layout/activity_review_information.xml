@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ri"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReviewInformationActivity"
+    android:background="@color/background2">
+
+    <!-- Header Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/header_background">
+
+        <TextView
+            android:id="@+id/tvRI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/review_information"
+            android:layout_gravity="start"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="30sp"
+            android:paddingLeft="8dp"
+            android:textColor="@color/headertext_color"
+            android:paddingTop="6dp" />
+    </LinearLayout>
+
+    <!-- Heading Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="9dp">
+
+        <!-- Name TextView -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Name"
+            android:textSize="18sp"
+            android:paddingEnd="8dp"
+            android:gravity="center"
+            android:fontFamily="@font/poppins_semibold" />
+
+        <!-- Country TextView -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/country"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:fontFamily="@font/poppins_semibold" />
+
+        <!-- Address TextView -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/address"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:fontFamily="@font/poppins_semibold" />
+
+        <!-- Contact Info TextView -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/contact_info"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:fontFamily="@font/poppins_semibold" />
+    </LinearLayout>
+
+    <!-- Sender Information Layout -->
+    <LinearLayout
+        android:id="@+id/senderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="9dp">
+
+        <!-- Sender Name -->
+        <TextView
+            android:id="@+id/sFullName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:gravity="center" />
+
+        <!-- Sender Country -->
+        <TextView
+            android:id="@+id/sCountry"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:gravity="center" />
+
+        <!-- Sender Address -->
+        <TextView
+            android:id="@+id/sAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:gravity="center" />
+
+        <!-- Sender Contact -->
+        <TextView
+            android:id="@+id/sCI"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:gravity="center" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="22dp"
+        >
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/baseline_compare_arrows_24"
+            android:rotation="90"
+            android:padding="2dp"
+
+            >
+
+        </ImageView>
+    </LinearLayout>
+
+
+    <!-- Receiver Information Layout -->
+    <LinearLayout
+        android:id="@+id/receiverLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="9dp">
+
+        <!-- Receiver Name -->
+        <TextView
+            android:id="@+id/rfName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:gravity="center" />
+
+        <!-- Receiver Country -->
+        <TextView
+            android:id="@+id/rCountry"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:gravity="center" />
+
+        <!-- Receiver Address -->
+        <TextView
+            android:id="@+id/rAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:gravity="center" />
+
+        <!-- Receiver Contact -->
+        <TextView
+            android:id="@+id/rCI"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="32dp"
+        android:backgroundTint="@color/header_color"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/plus"
+
+        >
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+    </RelativeLayout>
+</LinearLayout>
