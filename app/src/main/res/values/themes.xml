@@ -3,7 +3,16 @@
     <style name="Base.Theme.Assignment_1" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
 
-    <style name="Theme.Assignment_1" parent="Base.Theme.Assignment_1" />
+        <!-- Set the navigation bar color -->
+        <item name="android:statusBarColor">@color/header_color</item>
+
+
+        <item name="floatingActionButtonStyle">@style/MyFloatingActionButton</item>
+
+
+    </style>
+    <style name="MyFloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/background2</item>
+    </style>
 </resources>

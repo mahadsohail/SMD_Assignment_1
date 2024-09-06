@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margins for TextInputLayout -->
+    <dimen name="input_layout_margin_horizontal">40dp</dimen>
+    <dimen name="input_layout_margin_vertical">6dp</dimen>
+    <dimen name="input_layout_margin_top">60dp</dimen>
+
+    <!-- Corner radius for TextInputLayout -->
+    <dimen name="input_layout_corner_radius">30dp</dimen>
+
+    <!-- Button margins and text size -->
+    <dimen name="button_margin_horizontal">100dp</dimen>
+    <dimen name="button_margin_top">50dp</dimen>
+    <dimen name="button_text_size">20sp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_size_title">30sp</dimen>
+    <dimen name="text_size_input">16sp</dimen>
+    <dimen name="text_size_heading">18sp</dimen>
+    <dimen name="text_size_data">20sp</dimen>
+
+    <!--Activity Review Activity Dimensions -->
+    <dimen name="top_padding">32dp</dimen>
+    <dimen name="left_padding">8dp</dimen>
+
+    <!-- Headings padding in Review info activity-->
+    <dimen name="heading_padding">9dp</dimen>
+    <dimen name="arrow_padding">22dp</dimen>
+    <dimen name="negative_margin">-6dp</dimen>
+
+
+
+
+</resources>

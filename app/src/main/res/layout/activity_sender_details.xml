@@ -23,10 +23,10 @@
         android:layout_gravity="start"
         android:fontFamily="@font/poppins_semibold"
         android:text="@string/sender"
-        android:textSize="30sp"
-        android:paddingLeft="8dp"
+        android:textSize="@dimen/text_size_title"
+        android:paddingLeft="@dimen/left_padding"
         android:textColor="@color/headertext_color"
-        android:paddingTop="6dp" />
+        android:paddingTop="@dimen/top_padding" />
 
     <TextView
         android:id="@+id/twDetails"
@@ -35,10 +35,10 @@
         android:layout_gravity="start"
         android:text="@string/sDetails"
         android:fontFamily="@font/poppins_semibold"
-        android:textSize="30sp"
-        android:paddingLeft="8dp"
+        android:textSize="@dimen/text_size_title"
+        android:paddingLeft="@dimen/left_padding"
         android:textColor="@color/headertext_color"
-        android:layout_marginTop="-6dp" />
+        android:layout_marginTop="@dimen/negative_margin" />
     </LinearLayout>
 
     <LinearLayout
@@ -50,15 +50,15 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginLeft="40dp"
-            android:layout_marginBottom="6dp"
+            android:layout_marginTop="@dimen/input_layout_margin_top"
+            android:layout_marginRight="@dimen/input_layout_margin_horizontal"
+            android:layout_marginLeft="@dimen/input_layout_margin_horizontal"
+            android:layout_marginBottom="@dimen/input_layout_margin_vertical"
             app:boxBackgroundColor="@color/background_color"
-            app:boxCornerRadiusBottomEnd="30dp"
-            app:boxCornerRadiusTopEnd="30dp"
-            app:boxCornerRadiusBottomStart="30dp"
-            app:boxCornerRadiusTopStart="30dp"
+            app:boxCornerRadiusBottomEnd="@dimen/input_layout_corner_radius"
+            app:boxCornerRadiusTopEnd="@dimen/input_layout_corner_radius"
+            app:boxCornerRadiusBottomStart="@dimen/input_layout_corner_radius"
+            app:boxCornerRadiusTopStart="@dimen/input_layout_corner_radius"
             app:boxStrokeColor="@color/background2"
             >
 
@@ -67,20 +67,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/sEmail"
-                android:textSize="16sp"/>
+                android:textSize="@dimen/text_size_input"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
+            android:layout_marginLeft="@dimen/input_layout_margin_horizontal"
+            android:layout_marginRight="@dimen/input_layout_margin_horizontal"
             app:boxBackgroundColor="@color/background_color"
-            android:layout_marginBottom="6dp"
-            app:boxCornerRadiusBottomEnd="30dp"
-            app:boxCornerRadiusTopEnd="30dp"
-            app:boxCornerRadiusBottomStart="30dp"
-            app:boxCornerRadiusTopStart="30dp"
+            android:layout_marginBottom="@dimen/input_layout_margin_vertical"
+            app:boxCornerRadiusBottomEnd="@dimen/input_layout_corner_radius"
+            app:boxCornerRadiusTopEnd="@dimen/input_layout_corner_radius"
+            app:boxCornerRadiusBottomStart="@dimen/input_layout_corner_radius"
+            app:boxCornerRadiusTopStart="@dimen/input_layout_corner_radius"
             app:boxStrokeColor="@color/background2"
             >
 
@@ -89,7 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/sFull_name"
-                android:textSize="16sp"
+                android:textSize="@dimen/text_size_input"
                 />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -97,14 +97,14 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="@dimen/input_layout_margin_horizontal"
+            android:layout_marginRight="@dimen/input_layout_margin_horizontal"
+            android:layout_marginBottom="@dimen/input_layout_margin_vertical"
             app:boxBackgroundColor="@color/background_color"
-            app:boxCornerRadiusBottomEnd="30dp"
-            app:boxCornerRadiusTopEnd="30dp"
-            app:boxCornerRadiusBottomStart="30dp"
-            app:boxCornerRadiusTopStart="30dp"
+            app:boxCornerRadiusBottomEnd="@dimen/input_layout_corner_radius"
+            app:boxCornerRadiusTopEnd="@dimen/input_layout_corner_radius"
+            app:boxCornerRadiusBottomStart="@dimen/input_layout_corner_radius"
+            app:boxCornerRadiusTopStart="@dimen/input_layout_corner_radius"
             app:boxStrokeColor="@color/background2"
             >
 
@@ -113,20 +113,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/sContact_information"
-                android:textSize="16sp"/>
+                android:textSize="@dimen/text_size_input"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="@dimen/input_layout_margin_horizontal"
+            android:layout_marginRight="@dimen/input_layout_margin_horizontal"
+            android:layout_marginBottom="@dimen/input_layout_margin_vertical"
             app:boxBackgroundColor="@color/background_color"
-            app:boxCornerRadiusBottomEnd="30dp"
-            app:boxCornerRadiusTopEnd="30dp"
-            app:boxCornerRadiusBottomStart="30dp"
-            app:boxCornerRadiusTopStart="30dp"
+            app:boxCornerRadiusBottomEnd="@dimen/input_layout_corner_radius"
+            app:boxCornerRadiusTopEnd="@dimen/input_layout_corner_radius"
+            app:boxCornerRadiusBottomStart="@dimen/input_layout_corner_radius"
+            app:boxCornerRadiusTopStart="@dimen/input_layout_corner_radius"
             app:boxStrokeColor="@color/background2"
             >
 
@@ -135,20 +135,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/sCountry"
-                android:textSize="16sp"/>
+                android:textSize="@dimen/text_size_input"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="@dimen/input_layout_margin_horizontal"
+            android:layout_marginRight="@dimen/input_layout_margin_horizontal"
+            android:layout_marginBottom="@dimen/input_layout_margin_vertical"
             app:boxBackgroundColor="@color/background_color"
-            app:boxCornerRadiusBottomEnd="30dp"
-            app:boxCornerRadiusTopEnd="30dp"
-            app:boxCornerRadiusBottomStart="30dp"
-            app:boxCornerRadiusTopStart="30dp"
+            app:boxCornerRadiusBottomEnd="@dimen/input_layout_corner_radius"
+            app:boxCornerRadiusTopEnd="@dimen/input_layout_corner_radius"
+            app:boxCornerRadiusBottomStart="@dimen/input_layout_corner_radius"
+            app:boxCornerRadiusTopStart="@dimen/input_layout_corner_radius"
             app:boxStrokeColor="@color/background2"
             >
 
@@ -157,17 +157,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/sAddress"
-                android:textSize="16sp"/>
+                android:textSize="@dimen/text_size_input"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sNext"
-            android:textSize="20sp"
-            android:layout_marginLeft="100dp"
-            android:layout_marginRight="100dp"
-            android:layout_marginTop="50dp"
+            android:textSize="@dimen/button_text_size"
+            android:layout_marginLeft="@dimen/button_margin_horizontal"
+            android:layout_marginRight="@dimen/button_margin_horizontal"
+            android:layout_marginTop="@dimen/button_margin_top"
             android:id="@+id/btnSNext"
             android:backgroundTint="@color/header_color"
             >
